@@ -4,6 +4,10 @@
     list-style: none;
     font-family: 'Noto Sans TC', sans-serif;
 }
+a {
+    text-decoration: none;
+    color: #3d5493;
+}
 nav li{
 	margin: 0 13px;
 }
@@ -54,7 +58,7 @@ body {
     display: flex;
 }
 .item {
-    width: 368px;
+    width: 30.67%;
     margin: 15px;
     text-align: center;
     background-color: #fff;
@@ -83,6 +87,7 @@ body {
 .item .txt {
     padding: 20px;
     position: relative;
+    margin: auto;
 }
 .item .txt:before {
     content: "";

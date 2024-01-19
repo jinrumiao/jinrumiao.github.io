@@ -4,6 +4,7 @@
     list-style: none;
     font-family: 'Noto Sans TC', sans-serif;
 }
+
 body {
      background: linear-gradient(20deg, #3d5493, #1aa2a0) fixed center center / 100% 100%;
 }
@@ -11,6 +12,7 @@ body {
 img{
 	max-width:100%;
 }
+
 nav li{
 	    margin: 0 13px;
 }
@@ -59,6 +61,7 @@ nav li{
     border-radius: 20px;
     border: none;
 }
+
 .btn:hover{
 	opacity:0.8;
 	/* background-color: #f05f5c!important; */
@@ -76,10 +79,15 @@ nav li{
 	margin-bottom: 20px;
 	font-size: 32px;
 }
+
 #second img{
 	border-radius: 5px;
-    width: 108px;
+    width: 85%;
+	display: block;
+	margin: auto;
+	margin-bottom: 5px;
 }
+
 #second h5{
 	margin-top: 22px;
     font-size: 16px;
@@ -87,8 +95,8 @@ nav li{
 
 .box {
     background: white;
-    width: 900px;
-    height: 320px;
+    width: 55%;
+    /* height: 320px; */
     margin: 32px;
     border-radius: 0.25rem;
     box-shadow: 8px 8px 5px rgba(15, 36, 74, .6);

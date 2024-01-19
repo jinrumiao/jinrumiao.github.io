@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--RWD-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--boostrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
     <!--google font Noto Sans 300 400 700-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
+        rel="stylesheet">
     <!--fontawsome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://kit.fontawesome.com/ce064a6d3e.js" crossorigin="anonymous"></script>
@@ -21,40 +27,43 @@
     <!--icon-->
     <link rel="icon" href="favicon.ico">
 </head>
+
 <body>
     <!--Nav-->
     <nav class="navbar navbar-expand-lg bg-body-secondary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Jin-Ru, Miao</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Projects
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="./projects_python.html">Python</a></li>
-                  <li><a class="dropdown-item" href="./projects_ML.html">Machine Learning</a></li>
-                  <li><a class="dropdown-item" href="./projects_DL.html">Deep Learning</a></li>
+            <a class="navbar-brand" href="#">Jin-Ru, Miao</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./projects_python.html">Python</a></li>
+                            <li><a class="dropdown-item" href="./projects_ML.html">Machine Learning</a></li>
+                            <li><a class="dropdown-item" href="./projects_DL.html">Deep Learning</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/jinrumiao/Apache-Airflow-Implementation">Blog</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="mailto:victor0958689801@gmail.com">Contact</a>
+                    </li> -->
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-            <span class="navbar-text">
-              Personal Homepage
-            </span>
-          </div>
+                <span class="navbar-text">
+                    Personal Homepage
+                </span>
+            </div>
         </div>
     </nav>
     <!--區塊1 banner-->
@@ -69,7 +78,7 @@
                         window.addEventListener('scroll', () => {
                             const heroTitle = document.querySelectorAll('.intro_text');
                             var total = heroTitle.length;
-                            for (var i = 0; i < total; i++){
+                            for (var i = 0; i < total; i++) {
                                 heroTitle[i].style.transform = `translateY(${window.scrollY * 0.55}px)`;
                             }
                         });
@@ -80,6 +89,7 @@
     </section>
     <!--區塊2 簡介-->
     <section id="second">
+        <!--
         <div class="box row align-items-center">
             <div class="text-center align-items-center title">
                 <h3>Experience</h3>
@@ -116,36 +126,164 @@
                 </div>
             </div>
         </div>
-                    <script>
-                        const boxes = document.querySelectorAll('.box');
+        -->
+        <div class="box row align-items-center">
+            <div class="text-center align-items-center title">
+                <h3>個人簡介</h3>
+            </div>
+            <div class="align-items-center">
+                <p>
+                    我是苗金儒來自台中后里區，個性隨和開朗、積極進取、認真負責。曾經在群創光電擔任製程設備工程師，工作上常需要進行部門內或跨部門的溝通協調，良好的溝通能力以及理解能力，使我能快速地了解其他同仁的需求，並且能全力配合，若遇到困難我也能主動尋求解答或同仁、長官的幫助。在群創工作幾年後，我發覺產線內工程師的工作與我想要的有所差異，作為一名工程師我更希望可以利用自身專業知識與技能開發出優秀的產品。
+                </p>
+            </div>
+        </div>
+        <div class="box row align-items-center">
+            <div class="text-center align-items-center title">
+                <h3>為了成為軟體工程師，做過什麼努力？</h3>
+            </div>
+            <div class="align-items-center">
+                <p>
+                    2022/09 - 2022/12 有參與緯育TibaMe - AI資料科學家全方位學程第十二期、2023/06 - 2023/08 有參與勞動部產業新尖兵計畫 - AI人工智慧人才培訓班，另外也有在聯成電腦上AI相關的課，其餘時間都在家學習Python、機器學習、深度學習與資料工程的相關知識。在上課的過程中，也產出了許多專案，如經典kaggle數據集應用、yolo物件辨識、python會計系統、Line Bot開發，最近為了更貼近實務，接觸了Apache Airflow一套工作流程管理系統，完成了自動化ETL以及使用機器學習與深對學習模型對資料進行預測，並產出結果，為了要完成這項專案又另外學習了Linux、Docker、MLOps等相關知識，也有將學習的過程以筆記的形式記錄下來分享在社群中。
+                </p>
+                <img src="pictures/gap_year.PNG">
+            </div>
+        </div>
+        <div class="box row align-items-center">
+            <div class="text-center align-items-center title">
+                <h3>如果參與這個訓練，會怎麼安排學習時間？</h3>
+            </div>
+            <div class="align-items-center">
+                <p>
+                    我會持續我目前的安排，每週花40-60個小時在學習上，首要目標是完成各階段的任務，在任務完成後，空檔也會持續鑽研資料科學相關知識，補足驗算法與資料結構，每日也會至少解一題leetcode，希望最後可以完成優秀的MLOps平台。
+                </p>
+            </div>
+        </div>
+        <div class="box row align-items-center">
+            <div class="text-center align-items-center title">
+                <h3>是否有想要加入的公司？為什麼想加入該公司？</h3>
+            </div>
+            <div class="align-items-center">
+                <p>
+                    目前因為未來規劃，比較傾向在高雄發展，去年鴻海有跟高雄市政府簽訂投資意向書，並在11月成立新辦公室，希望以智慧城市、智慧製造與智慧EV為出發點發展出Super App，我覺得如果能參與其中與優秀的同仁一起為一個城市的發展有所貢獻一定會十分有成就感。                </p>
+            </div>
+        </div>
+        <div class="box row align-items-center">
+            <div class="text-center align-items-center title">
+                <h3>請描述一件產生明顯負面情緒的經歷，如何處理該情緒？</h3>
+            </div>
+            <div class="align-items-center">
+                <p>
+                    在去年底有機會面試某間公司的數據工程師一職，順利通過一面，但在二面時面試主管有提到因為是轉職的關係，擔心可能會與內部本科的工程師在溝通上會有問題，那我當下是以適應能力很好的例子回答，但並沒有解除主管的疑慮，當天面試完後就十分灰心，稍微收拾好情緒後就出門進行例行性的運動，運動完在睡前也再與女友聊了一下面試的狀況之後，整個心情就好了很多了，隔天也是照常的進行學習與推進專案。也是因為這次的經驗，希望有機會參加這項計畫與許多優秀的轉職同伴、助教以及老師一起討論，讓技術能力更豐富，也增加溝通的經驗值與軟體產品生命週期的理解。
+                </p>
+            </div>
+        </div>
+        <div class="box row align-items-center">
+            <div class="text-center align-items-center title">
+                <h3>關於這份申請網頁，分享一個開發時的技術心得。</h3>
+            </div>
+            <div class="align-items-center">
+                <p>
+                    使用JS偵測class包含box標籤的物件，監聽scroll動作，當box物件的上邊界的位置小於螢幕畫面的五分之四時，就在box物件的classlist加上show標籤，並配合CSS讓box可以在觸發條件後出現在畫面的呈現中，當觸發條件失效則消失。因為有設定排序奇數與偶數，所以box物件出現時是一右一左當條件JS的條件觸發classlist加入show之後，讓box出現到螢幕畫面中，因為有設定排序奇數與偶數，所以box物件出現時是一右一左出現在畫面中。
+                    <pre>
+                        <code>
+// JS
+const boxes = document.querySelectorAll('.box');  // 偵測class包含box標籤的物件
 
-                        window.addEventListener('scroll', showBoxes);
+window.addEventListener('scroll', showBoxes);  // 搭配監聽scroll動作
 
-                        function showBoxes() {
-                            const triggerBottom = (window.innerHeight / 5) * 4;
-                            boxes.forEach((box) => {
-                                const boxTop = box.getBoundingClientRect().top;
+function showBoxes() {
+    const triggerBottom = (window.innerHeight / 5) * 4;  // 設定螢幕畫面的五分之四為觸發條件
 
-                                if (boxTop < triggerBottom) {box.classList.add('show');}
-                                else {box.classList.remove('show');}
-                            });
-                        }
-                    </script>
+    boxes.forEach((box) => {
+        const boxTop = box.getBoundingClientRect().top;  // 取得每個box物件的上邊界位置
+
+        // 當box物件的上邊界的位置小於螢幕畫面的五分之四時，就在box物件的classlist加上show標籤，否則移除box物件的show標籤
+        if (boxTop < triggerBottom) { box.classList.add('show'); }
+        else { box.classList.remove('show'); }
+    });
+}
+
+/* CSS */
+
+/* 設定基本box樣式 */
+.box {
+    background: white;
+    width: 55%;
+    /* height: 320px; */
+    margin: 32px;
+    border-radius: 0.25rem;
+    box-shadow: 8px 8px 5px rgba(15, 36, 74, .6);
+    display: grid;
+    place-content: center;
+    transform: translateX(400%) rotate(30deg);  /* 一開始先右移至畫面之外，並加上一30度的順時針旋轉 */
+    transform-origin: center;
+    transition: transform .6s ease-out;
+}
+
+/* 讓排序是偶數的box往左邊移動，並加上一30度的逆時針旋轉 */
+.box:nth-of-type(even) {
+    transform: translateX(-400%) rotate(-30deg)
+}
+
+/* 當條件JS的條件觸發classlist加入show之後，讓box出現到螢幕畫面中 */
+.box.show {
+    transform: translateX(0) rotate(0deg);
+}
+                        </code>
+                    </pre>
+                </p>
+            </div>
+        </div>
+        <div class="box row align-items-center">
+            <div class="text-center align-items-center title">
+                <h3>請用簡短兩三句話，描述對你而言，最重要的一項人際交往原則。</h3>
+            </div>
+            <div class="align-items-center">
+                <p>
+                    己所不欲，勿施於人；當遭遇到感受不佳的對待時，我會審視自己會不會有相似的代人方式，並警惕自己不要成為連自己都討厭的狀態。
+                </p>
+            </div>
+        </div>
+        <div class="box row align-items-center">
+            <div class="align-items-center title">
+                <h3>其他想要對我們說的事情？</h3>
+            </div>
+            <div class="align-items-center">
+                <p>
+                    感謝你們願意協助想要轉職的人，從課程內容就看得出來十分紮實，如果能參與其中必定功力大增。
+                </p>
+            </div>
+        </div>
+        <script>
+            const boxes = document.querySelectorAll('.box');
+
+            window.addEventListener('scroll', showBoxes);
+
+            function showBoxes() {
+                const triggerBottom = (window.innerHeight / 5) * 4;
+                boxes.forEach((box) => {
+                    const boxTop = box.getBoundingClientRect().top;
+
+                    if (boxTop < triggerBottom) { box.classList.add('show'); }
+                    else { box.classList.remove('show'); }
+                });
+            }
+        </script>
     </section>
     <!--區塊4 email-->
     <section id="email">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 offset-md-2 text-center">
-<!--                    <h3>Contact</h3>-->
+                    <!--                    <h3>Contact</h3>-->
                 </div>
             </div>
             <div class="row d-grid gap-2 col-3 mx-auto justify-content-md">
-<!--                <p></p>-->
-<!--                <div class="input-group input-group-lg">-->
-<!--                    <span class="input-group-text" id="inputGroup-sizing-lg"><i class="fa-solid fa-envelope"></i></span>-->
-<!--                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="email adress">-->
-<!--                </div>-->
+                <!--                <p></p>-->
+                <!--                <div class="input-group input-group-lg">-->
+                <!--                    <span class="input-group-text" id="inputGroup-sizing-lg"><i class="fa-solid fa-envelope"></i></span>-->
+                <!--                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="email adress">-->
+                <!--                </div>-->
                 <a class="btn btn-info btn-lg" href="mailto:victor0958689801@gmail.com" role="button">Contact Me</a>
             </div>
         </div>
@@ -162,16 +300,17 @@
                     <h4>Sitemap</h4>
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="all.html">Blog</a></li>
+                        <li><a href="https://github.com/jinrumiao/Apache-Airflow-Implementation">Blog</a></li>
                     </ul>
                     <ul>
                         <li><a href="faq.html">Projects</a></li>
-                        <li><a href="contact.html">Contact Me</a></li>
+                        <!-- <li><a href="mailto:victor0958689801@gmail.com">Contact Me</a></li> -->
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <h4>Contact Me</h4>
-                    <p>Phone: 0983-266-160<br>Email: <a href="emailto:victor0958689801@gmail.com">victor0958689801@gmail.com</a></p>
+                    <p>Phone: 0983-266-160<br>Email: <a
+                            href="emailto:victor0958689801@gmail.com">victor0958689801@gmail.com</a></p>
                 </div>
             </div>
             <div class="text-center">
@@ -180,4 +319,5 @@
         </div>
     </footer>
 </body>
+
 </html>
